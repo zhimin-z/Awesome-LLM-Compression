@@ -438,6 +438,10 @@ Awesome LLM compression research papers and tools to accelerate LLM training and
 
 - Accurate and Efficient Fine-Tuning of Quantized Large Language Models Through Optimal Balance <br> Arxiv 2024 [[Paper]](https://arxiv.org/abs/2407.17029) [[Code]](https://github.com/xiaocaigou/qbaraqahira) 
 
+- STBLLM: Breaking the 1-Bit Barrier with Structured Binary LLMs <br> Arxiv 2024 [[Paper]](https://arxiv.org/abs/2408.01803)
+
+- Advancing Multimodal Large Language Models with Quantization-Aware Scale Learning for Efficient Adaptation <br> ACM MM 2024 [[Paper]](https://arxiv.org/abs/2408.03735)
+
 ### Pruning and Sparsity
 
 <b>🌟 Feel free to explore the [subpage](PRUNE.md) for LLM pruning</b>
@@ -622,6 +626,10 @@ Awesome LLM compression research papers and tools to accelerate LLM training and
 
 - Greedy Output Approximation: Towards Efficient Structured Pruning for LLMs Without Retraining <br> Arxiv 2024 [[Paper]](https://arxiv.org/abs/2407.19126) 
 
+- Pruning Large Language Models with Semi-Structural Adaptive Sparse Training <br> Arxiv 2024 [[Paper]](https://arxiv.org/abs/2407.20584) 
+
+- A Convex-optimization-based Layer-wise Post-training Pruner for Large Language Models <br> Arxiv 2024 [[Paper]](https://arxiv.org/abs/2408.03728) 
+
 ### Distillation
 
 - Lifting the Curse of Capacity Gap in Distilling Language Models <br> ACL 2023 [[Paper]](https://arxiv.org/abs/2305.12129) [[Code]](https://github.com/GeneZC/MiniMoE)
@@ -758,6 +766,10 @@ Awesome LLM compression research papers and tools to accelerate LLM training and
 
 - Fundamental Limits of Prompt Compression: A Rate-Distortion Framework for Black-Box Language Models <br> Arxiv 2024 [[Paper]](https://arxiv.org/abs/2407.15504) 
 
+- QUITO: Accelerating Long-Context Reasoning through Query-Guided Context Compression <br> Arxiv 2024 [[Paper]](https://arxiv.org/abs/2408.00274) [[Code]](https://github.com/Wenshansilvia/attention_compressor)
+
+- 500xCompressor: Generalized Prompt Compression for Large Language Models <br> Arxiv 2024 [[Paper]](https://arxiv.org/abs/2408.03094)
+
 ### Other
 
 - FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness <br> Arxiv 2022 [[Paper]](https://arxiv.org/abs/2402.16058) 
@@ -816,6 +828,8 @@ Awesome LLM compression research papers and tools to accelerate LLM training and
 
 - CompactifAI: Extreme Compression of Large Language Models using Quantum-Inspired Tensor Networks <br> Arxiv 2024 [[Paper]](https://arxiv.org/abs/2401.14109)
 
+- MobileLLM: Optimizing Sub-billion Parameter Language Models for On-Device Use Cases <br> ICML 2024 [[Paper]](https://arxiv.org/abs/2402.14905) [[Code]](https://github.com/facebookresearch/MobileLLM)
+
 - BAdam: A Memory Efficient Full Parameter Training Method for Large Language Models <br> Arxiv 2024 [[Paper]](https://arxiv.org/abs/2404.02827) [[Code]](https://github.com/Ledzy/BAdam)
 
 - NoMAD-Attention: Efficient LLM Inference on CPUs Through Multiply-add-free Attention <br> Arxiv 2024 [[Paper]](https://arxiv.org/abs/2403.01273)
@@ -861,6 +875,16 @@ Awesome LLM compression research papers and tools to accelerate LLM training and
 - LazyLLM: Dynamic Token Pruning for Efficient Long Context LLM Inference <br> Arxiv 2024 [[Paper]](https://arxiv.org/abs/2407.14057)
 
 - RazorAttention: Efficient KV Cache Compression Through Retrieval Heads <br> Arxiv 2024 [[Paper]](https://arxiv.org/abs/2407.15891)
+
+- AdaCoder: Adaptive Prompt Compression for Programmatic Visual Question Answering <br> Arxiv 2024 [[Paper]](https://arxiv.org/abs/2407.19410)
+ 
+- Palu: Compressing KV-Cache with Low-Rank Projection <br> Arxiv 2024 [[Paper]](https://arxiv.org/abs/2407.21118) [[Code]](https://github.com/shadowpa0327/Palu)
+
+- Finch: Prompt-guided Key-Value Cache Compression <br> Arxiv 2024 [[Paper]](https://arxiv.org/pdf/2408.00167)
+
+- Zero-Delay QKV Compression for Mitigating KV Cache and Network Bottlenecks in LLM Inference <br> Arxiv 2024 [[Paper]](https://arxiv.org/abs/2408.04107)
+
+- CaM: Cache Merging for Memory-efficient LLMs Inference <br> ICML 2024 [[Paper]](https://openreview.net/forum?id=LCTmppB165) [[Code]](https://github.com/zyxxmu/cam)
 
 ## Tools
 
@@ -933,6 +957,14 @@ Awesome LLM compression research papers and tools to accelerate LLM training and
 - LLaMA-Factory: Unify Efficient Fine-Tuning of 100+ LLMs [[Code]](https://github.com/hiyouga/LLaMA-Factory)
 
 - LLMC: A tool designed for LLM Compression. [[Code]](https://github.com/ModelTC/llmc)
+
+- BitBLAS: BitBLAS is a library to support mixed-precision matrix multiplications, especially for quantized LLM deployment. [[Code]](https://github.com/microsoft/BitBLAS)
+
+- AutoFP8: Open-source FP8 quantization library for producing compressed checkpoints for running in vLLM  [[Code]](https://github.com/neuralmagic/AutoFP8)
+
+- AutoGGUF: automatically quant GGUF models [[Code]](https://github.com/leafspark/AutoGGUF)
+
+- Transformer Compression: For releasing code related to compression methods for transformers, accompanying our publications [[Code]](https://github.com/microsoft/TransformerCompression)
 
 ## Contributing
 
