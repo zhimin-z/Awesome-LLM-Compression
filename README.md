@@ -496,6 +496,14 @@ Awesome LLM compression research papers and tools to accelerate LLM training and
 
 - QEFT: Quantization for Efficient Fine-Tuning of LLMs <br> EMNLP Findings 2024 [[Paper]](https://arxiv.org/abs/2410.08661) [[Code]](https://github.com/xvyaward/qeft)
 
+- Continuous Approximations for Improving Quantization Aware Training of LLMs <br> Arxiv 2024 [[Paper]](https://arxiv.org/abs/2410.10849) 
+
+- DAQ: Density-Aware Post-Training Weight-Only Quantization For LLMs <br> Arxiv 2024 [[Paper]](https://arxiv.org/abs/2410.12187) 
+
+- COMET: Towards Partical W4A4KV4 LLMs Serving <br> Arxiv 2024 [[Paper]](https://arxiv.org/abs/2410.12168) 
+
+- Scaling laws for post-training quantized large language models <br> Arxiv 2024 [[Paper]](https://arxiv.org/abs/2410.12119) 
+
 ### Pruning and Sparsity
 
 <b>🌟 Feel free to explore the [subpage](PRUNE.md) for LLM pruning</b>
@@ -830,7 +838,7 @@ Awesome LLM compression research papers and tools to accelerate LLM training and
 
 - Extending Context Window of Large Language Models via Semantic Compression <br> Arxiv 2023 [[Paper]](https://arxiv.org/abs/2312.09571)
 
-- Fewer is More: Boosting LLM Reasoning with Reinforced Context Pruning <br> EMNLP 2024 [[Paper]](https://arxiv.org/abs/2312.08901)
+- Fewer is More: Boosting LLM Reasoning with Reinforced Context Pruning <br> EMNLP 2024 [[Paper]](https://arxiv.org/abs/2312.08901) [[Code]](https://github.com/HuangOwen/CoT-Influx)
 
 - The Impact of Reasoning Step Length on Large Language Models <br> ACL 2024 Findings [[Paper]](https://arxiv.org/abs/2401.04925)
 
@@ -879,6 +887,8 @@ Awesome LLM compression research papers and tools to accelerate LLM training and
 - Perception Compressor:A training-free prompt compression method in long context scenarios <br> Arxiv 2024 [[Paper]](https://arxiv.org/abs/2409.19272)
 
 - From Reading to Compressing: Exploring the Multi-document Reader for Prompt Compression <br> EMNLP Findings 2024 [[Paper]](https://arxiv.org/abs/2410.04139)
+
+- Selection-p: Self-Supervised Task-Agnostic Prompt Compression for Faithfulness and Transferability <br> EMNLP Findings 2024 [[Paper]](https://arxiv.org/abs/2410.11786)
 
 ### Other
 
